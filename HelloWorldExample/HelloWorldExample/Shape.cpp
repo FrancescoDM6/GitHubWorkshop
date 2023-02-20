@@ -29,3 +29,7 @@ void Shape::setHeight(float height)
 {
 	m_height = height;
 }
+
+float getArea() const {
+	return m_height * m_width;
+}
