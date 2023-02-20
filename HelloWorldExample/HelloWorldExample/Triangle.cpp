@@ -2,6 +2,8 @@
 
 Triangle::Triangle(float width, float height)
 {
+	float m_width = width;
+	float m_height = height;
 }
 
 Triangle::~Triangle()
@@ -10,5 +12,6 @@ Triangle::~Triangle()
 
 float Triangle::getArea() const
 {
-	return 0.0f;
+	float area = (m_width * m_height) / 2;
+	return area;
 }
