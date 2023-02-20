@@ -2,6 +2,8 @@
 
 Shape::Shape(float width, float height)
 {
+	float m_width = width;
+	float m_height = height;
 }
 
 Shape::~Shape()
@@ -10,18 +12,20 @@ Shape::~Shape()
 
 float Shape::getWidth() const
 {
-	return 0.0f;
+	return m_width;
 }
 
 void Shape::setWidth(float width)
 {
+	m_width = width;
 }
 
 float Shape::getHeight() const
 {
-	return 0.0f;
+	return m_height;
 }
 
 void Shape::setHeight(float height)
 {
+	m_height = height;
 }
